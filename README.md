@@ -476,3 +476,53 @@ Below is the list of possible Invalid Triangle cases
 | 3         | a = 1, b = -5, c = 7  | Invalid Triangle |
 
 ---
+
+## Section B
+
+### 1. The control flow graph for the given problem is as follows
+
+![control flow drawio](https://user-images.githubusercontent.com/77343775/232098773-21f21bfa-a784-483c-b147-cba7ca9349ff.png)
+
+### 2. Criteria specific test case for flow graph
+
+**(a) Statement coverage test set:** In this all the statements in code should be covered
+<br/>
+| Test Number | Test Case |
+|-------------|-----------|
+| 1 | p is empty array |
+| 2 | p has one point object |
+| 3 | p has two points object with different y component |
+| 4 | p has two points object with different x component |
+| 5 | p has three or more point object with different y component |
+
+**(b) Branch Coverage test set:** In this all branch are taken atleast once
+<br/>
+
+| Test Number | Test Case |
+|-------------|-----------|
+| 1 | p is empty array |
+| 2 | p has one point object |
+| 3 | p has two points object with different y component |
+| 4 | p has two points object with different x component |
+| 5 | p has three or more point object with different y component |
+| 6 | p has three or more point object with same y component |
+| 7 | p has three or more point object with all same x component |
+| 8 | p has three or more point object with all different x component |
+| 9 | p has three or more point object with some same and some different x component |
+
+**(c) Basic condition coverage test set:** Each boolean expression has been evaluated to both true and false
+
+| Test Number | Test Case |
+|-------------|-----------|
+| 1 | p is empty array |
+| 2 | p has one point object |
+| 3 | p has two points object with different y component |
+| 4 | p has two points object with different x component |
+| 5 | p has three or more point object with different y component |
+| 6 | p has three or more point object with same y component |
+| 7 | p has three or more point object with all same x component |
+| 8 | p has three or more point object with all different x component |
+| 9 | p has three or more point object with some same and some different x component |
+| 10 | p has three or more point object with some same and some different y component |
+| 11 | p has three or more point object with all different y component |
+| 12 | p has three or more point object with all same y component |
